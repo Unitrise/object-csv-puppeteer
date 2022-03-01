@@ -1,0 +1,33 @@
+{
+  "name": "puppeteer-test",
+  "version": "1.0.0",
+  "description": "this is my first try with puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=60000 ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Unitrise/puppeteer-test.git"
+  },
+  "keywords": [
+    "automations"
+  ],
+  "author": "tal haviv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unitrise/puppeteer-test/issues"
+  },
+  "homepage": "https://github.com/Unitrise/puppeteer-test#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "csv-parser": "^3.0.0",
+    "jest": "^27.5.1",
+    "jest-image-snapshot": "^4.5.1",
+    "mocha": "^9.2.1",
+    "node-csv": "^0.1.2",
+    "objects-to-csv": "^1.3.6",
+    "prettier": "^2.5.1",
+    "puppeteer": "^13.4.1"
+  }
+}
